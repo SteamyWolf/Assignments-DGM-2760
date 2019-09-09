@@ -1,0 +1,76 @@
+main, body, h1, h2, h3, h4, p {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+}
+
+header {
+    background-image: url(/images/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: 960px;
+    background-position-y: -50px;
+    margin: 0px auto;
+    max-width: 900px;
+    height: 300px;
+    color: white;
+    border: solid rgb(57, 100, 163) 10px;
+    padding: 20px;
+}
+
+header h1 {
+    padding: 5px;
+}
+
+header h2 {
+    padding: 5px;
+}
+
+.objectives {
+    list-style-type: upper-roman;
+}
+
+main h1, main h2 {
+    color: rgb(57, 100, 163);
+}
+
+main p, main ul {
+    color: rgb(202, 105, 29);
+}
+
+main {
+    margin: 0px auto;
+    max-width: 900px;
+    padding-left: 45px;
+    padding-top: 10px;
+    /* border: 8px solid rgb(202, 105, 29); */
+
+}
+
+#myWindow {
+    padding-left: 30px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+#urlDisplay {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#myDocument {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding: 20px;
+
+}
+
+footer {
+    margin: 0px auto;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(202, 105, 29);
+    border: 1px solid rgb(202, 105, 29);
+    max-width: 900px;
+    padding: 4px;
+    margin-bottom: 30px;
+}

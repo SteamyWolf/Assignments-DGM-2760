@@ -1,0 +1,59 @@
+
+
+main, body, h1, h2, h3, h4, p {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Livvic', sans-serif;
+}
+
+header {
+    max-width: 960px;
+    margin: 0px auto;
+    border: 5px solid orangered;
+    background-image: url("../images/slide-breakfast016.jpg");
+    height: 300px;
+    color: white;
+
+}
+
+header h1, h2 {
+    padding: 10px;
+}
+
+
+body {
+    text-align: left;
+}
+
+.objectives {
+    list-style-type: circle;
+}
+
+.mainP {
+    width: 950px;
+    margin: 0px auto;
+}
+
+.date {
+    color: red;
+    /* background-color: aqua; */
+    width: 210px;
+    /* border: 1px black solid; */
+    margin: 0px auto;
+}
+
+#greeting {
+    margin: 0px auto;
+    width: 950px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    border: solid 1px black;
+    background-color: coral;
+    width: 960px;
+    margin: 0px auto;
+    color: white;
+}
