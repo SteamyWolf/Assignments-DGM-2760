@@ -1,0 +1,23 @@
+html, header, body, main {
+    padding: 0;
+    margin: 0;
+    font-family: 'Hammersmith One', sans-serif;
+
+}
+
+header {
+    background-image: url(images/101186.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    max-width: 100vw;
+    height: 20vh;
+    margin: 0px auto;
+    color: white;
+    padding-left: 20px;
+    padding-top: 1px;
+}
+
+main {
+    padding-left: 20px;
+
+}
