@@ -19,7 +19,7 @@ function evalGuess() {
         console.log("You guessed correctly")
         feedback.innerText = 'Correct!'
         giveAward();
-        // button();
+        
     } else if (gamerGuess > correctNumber && gamerGuess < 16) {
         feedback.innerText = 'Too high, try again';
     } else if (gamerGuess < correctNumber && gamerGuess > 0) {
@@ -59,6 +59,7 @@ function giveAward() {
     const ribbon = document.querySelector('#ribbon')
     ribbon.append(awardImage);
 
+    document.getElementById('buttonID').setAttribute("disabled", "disabled");
     }
 
 // function button() {
