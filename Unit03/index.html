@@ -28,11 +28,38 @@
                 <li>Master JavaScript!</li>
             </ul>
         <h2>Instructions:</h2>
-            <p>In this game you will try to guess a number between 1 and 15 in as few tries as possible.
+            <p>In this game you will try to guess a number between 0 and 16 in as few tries as possible.
             You will be rewarded with a ribbon for your skills.<br>If you want to play again,
             then you'll have to refresh the page. Good Luck at guessing!
             </p>
+        
+    <div class="articles">
+        <article class="a1">
+            <h2>Play</h2>
+            <div>
+                <input id="guess" type="number" placeholder="number">
+                <button onclick="evalGuess()">Guess</button>
+            </div>
+        </article>
+
+        <article class="a2">
+            <h2>Trys</h2>
+            <div id="attempts"></div>
+        </article>
+
+        <article>
+            <h2>Feedback</h2>
+            <div id="feedback"></div>
+        </article>
+
+        <article>
+            <h2>Award</h2>
+            <div id="ribbon"></div>
+        </article>
+    </div>
     </main>
+
+    <footer>03-Wyatt</footer>
     
 </body>
 <script type="text/javascript" src="code.js"></script>
