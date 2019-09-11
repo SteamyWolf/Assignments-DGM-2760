@@ -19,6 +19,7 @@ function evalGuess() {
         console.log("You guessed correctly")
         feedback.innerText = 'Correct!'
         giveAward();
+        // button();
     } else if (gamerGuess > correctNumber && gamerGuess < 16) {
         feedback.innerText = 'Too high, try again';
     } else if (gamerGuess < correctNumber && gamerGuess > 0) {
@@ -49,16 +50,26 @@ function giveAward() {
 
     if (totalGuesses > 6) {
         imagePath = 'images/yellowribbon-resize.png'
+        
     }
+    
 
     const awardImage = document.createElement('img');
     awardImage.setAttribute('src', imagePath)
     const ribbon = document.querySelector('#ribbon')
-    ribbon.appendChild(awardImage);
+    ribbon.append(awardImage);
 
+    }
+
+// function button() {
+    //let buttonPress = document.querySelector('#buttonID').event
+   // if (buttonPress.onclick > 2) {
+     //   imagePath = 0;
+    //}
+
+//}
 
     // const blueRibbon = new Image(100, 100);
    // blueRibbon.src = 'images/101186.jpg';
     //document.querySelector('#ribbon').innerText = blueRibbon;
     // addToDiv = document.body.appendChild(blueRibbon);
-}
