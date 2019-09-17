@@ -30,7 +30,7 @@ main {
 #fortune {
     font-weight: bold;
     color: red;
-
+    font-size: 2em;
 }
 
 footer {

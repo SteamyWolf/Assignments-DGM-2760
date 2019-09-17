@@ -75,7 +75,7 @@ function getFortune(fate) {
             message = "be struck by lightning and gain the powers of Thor."
             break;
         case 6:
-            message = "fall into the arms of your true love."
+            message = "fall into the arms of your true love. They will be the person to your right."
             break;
         case 7:
             message = "be seduced by a dwarf."
@@ -90,7 +90,7 @@ function getFortune(fate) {
             message = "fall in love with an elf."
             break;
         case 11:
-            message = "Get A's in all of your classes. Except you coding class."
+            message = "Get A's in all of your classes. Except your coding class."
             break;
         case 12:
             message = "have a billion dollars fall right onto your lap, thus crushing you to death."
