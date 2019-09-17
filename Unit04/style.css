@@ -1,0 +1,46 @@
+html {
+    font-family: 'Amatic SC', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: solid 4px violet;
+    background-image: url(images/featured-fortune-teller.jpg);
+    background-repeat: no-repeat;
+    max-width: 780px;
+    height: 250px;
+    margin: 0 auto;
+    color: white;
+}
+
+header h1, header h2 {
+    padding-left: 20px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 780px;
+    padding-left: 20px;
+}
+
+#fortune {
+    font-weight: bold;
+    color: red;
+
+}
+
+footer {
+    text-align: center;
+    border: 3px solid violet;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 780px;
+}
+
+footer h2 {
+    margin: 0px;
+}
