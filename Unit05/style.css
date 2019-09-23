@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 header {
@@ -32,13 +33,29 @@ main {
     justify-content: space-between;
 }
 
+
 aside {
     display: flex;
     flex-direction: column;
-
+    margin-right: 200px;
+    margin-top: 80px;
 }
 
+#displayResults {
+    background-color: lightgreen;
+    padding-right: 140px;
+    padding: 10px;
+}
+#displayResults span {
+    color: red;
+}
 
+#error {
+    background-color: yellow;
+    padding-right: 140px;
+    padding: 10px;
+
+}
 
 footer {
     margin: 0 auto;
@@ -47,6 +64,8 @@ footer {
     padding: 0px;
     margin: 0px;
     background-color: lightgreen;
+    margin-top: 20px;
+    margin-left: 140px;
 }
 
 footer h3 {
