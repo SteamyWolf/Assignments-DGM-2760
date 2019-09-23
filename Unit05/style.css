@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(images/11685109.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -60px;
+    max-width: 980px;
+    height: 300px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+#mainStuff {
+    display: flex;
+    flex-direction: column;
+}
+
+#flexAll {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+footer {
+    margin: 0 auto;
+    max-width: 980px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: lightgreen;
+}
+
+footer h3 {
+    margin: 0 auto;
+}
