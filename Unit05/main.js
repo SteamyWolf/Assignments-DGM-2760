@@ -63,5 +63,24 @@ document.querySelector('#lowerTrees').onclick = () => {
 
 //Get the name of tree number 3
 document.querySelector('#showName3').onclick = () => {
-    trees.
+    if (trees.length < 2) {
+        let thirdTree = trees[2]
+        errorElement.textContent = thirdTree
+        listTrees()
+    } else {
+        errorElement.innerHTML = "You need a third tree in the list to get the name. <br> Add some more trees!"
+    }
+   
+}
+
+// Get the name of tree number 4
+document.querySelector('#showName4').onclick = () => {
+    if (trees.length < 3) {
+        let fourthTree = trees[3]
+        errorElement.textContent = fourthTree
+        listTrees()
+    } else {
+        errorElement.innerHTML = 'You need a fourth tree in the list to get the name. <br> Add some more trees!'
+    }
+    
 }
