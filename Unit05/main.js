@@ -1,5 +1,5 @@
 // Create an array with 4 trees listed
-const trees = ['oak', 'Pine', 'aspen', 'Bald Cypress'];
+let trees = ['oak', 'Pine', 'aspen', 'Bald Cypress'];
 const errorElement = document.querySelector('#error')
 const displayResults = document.querySelector('#displayResults');
 
@@ -39,14 +39,24 @@ document.querySelector('#remove_tree1').onclick = () => {
 
 //Remove the second tree from the Array
 document.querySelector('#remove_tree2').onclick = () => {
-    trees.splice(1,1)
-    listTrees()
+    if (trees.length > 1) {
+        trees.splice(1,1)
+        listTrees()
+    } else {
+        errorElement.textContent = 'Error! Cannont remove the second tree'
+    }
+    
 }
 
 //Remove the last tree fromt the Array
 document.querySelector('#remove_treeLast').onclick = () => {
-    trees.pop()
-    listTrees()
+    if (trees.length > 0) {
+        trees.pop()
+        listTrees()
+    } else {
+        errorElement.textContent = 'No more trees in the box to remove!'
+    }
+    
 }
 
 // Sort the Array from A to Z
@@ -58,12 +68,15 @@ document.querySelector('#sortTrees').onclick = () => {
 // Make all the trees lower case
 document.querySelector('#lowerTrees').onclick = () => {
     
+    trees = trees.join(" <br>").toLowerCase()
+    trees = trees.split(" ,")
+    console.log(trees.length)
     listTrees()
 }
 
 //Get the name of tree number 3
 document.querySelector('#showName3').onclick = () => {
-    if (trees.length < 2) {
+    if (trees.length > 2) {
         let thirdTree = trees[2]
         errorElement.textContent = thirdTree
         listTrees()
@@ -75,12 +88,13 @@ document.querySelector('#showName3').onclick = () => {
 
 // Get the name of tree number 4
 document.querySelector('#showName4').onclick = () => {
-    if (trees.length < 3) {
+    if (trees.length > 3) {
         let fourthTree = trees[3]
         errorElement.textContent = fourthTree
+        console.log(trees.length)
         listTrees()
     } else {
         errorElement.innerHTML = 'You need a fourth tree in the list to get the name. <br> Add some more trees!'
     }
-    
+
 }
