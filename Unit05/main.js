@@ -13,3 +13,55 @@ const listTrees = () => {
 }
 
 listTrees()
+
+// Add a redwood
+document.querySelector('#add_redwood').onclick = () => {
+    trees.push('redwood')
+    listTrees()
+}
+
+// Add a Pear to the start
+document.querySelector('#add_pear').onclick = () => {
+    trees.unshift('pear')
+    listTrees()
+}
+
+// Remove the first item in the Array
+document.querySelector('#remove_tree1').onclick = () => {
+    if (trees.length > 0) {
+        trees.shift()
+        listTrees()
+    } else {
+        errorElement.textContent = "Error! No more trees to remove"; 
+    }
+    
+}
+
+//Remove the second tree from the Array
+document.querySelector('#remove_tree2').onclick = () => {
+    trees.splice(1,1)
+    listTrees()
+}
+
+//Remove the last tree fromt the Array
+document.querySelector('#remove_treeLast').onclick = () => {
+    trees.pop()
+    listTrees()
+}
+
+// Sort the Array from A to Z
+document.querySelector('#sortTrees').onclick = () => {
+    trees.sort()
+    listTrees()
+}
+
+// Make all the trees lower case
+document.querySelector('#lowerTrees').onclick = () => {
+    
+    listTrees()
+}
+
+//Get the name of tree number 3
+document.querySelector('#showName3').onclick = () => {
+    trees.
+}
