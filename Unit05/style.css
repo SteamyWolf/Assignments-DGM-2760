@@ -45,6 +45,7 @@ aside {
     background-color: lightgreen;
     padding-right: 140px;
     padding: 10px;
+    margin-right: 150px;
 }
 #displayResults span {
     color: red;
@@ -55,6 +56,14 @@ aside {
     padding-right: 140px;
     padding: 10px;
 
+}
+
+button {
+    border-radius: 20px;
+    padding: 5px;
+    background-color: lightgreen;
+    font-size: .8rem;
+    color: darkred;
 }
 
 footer {

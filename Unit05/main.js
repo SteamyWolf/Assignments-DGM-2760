@@ -43,7 +43,7 @@ document.querySelector('#remove_tree2').onclick = () => {
         trees.splice(1,1)
         listTrees()
     } else {
-        errorElement.textContent = 'Error! Cannont remove the second tree'
+        errorElement.textContent = 'Error! Cannot remove the second tree'
     }
     
 }
