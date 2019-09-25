@@ -67,7 +67,6 @@ document.querySelector('#sortTrees').onclick = () => {
 
 // Make all the trees lower case
 document.querySelector('#lowerTrees').onclick = () => {
-    
     trees = trees.join(" <br>").toLowerCase()
     trees = trees.split(" ,")
     console.log(trees.length)
@@ -94,7 +93,7 @@ document.querySelector('#showName4').onclick = () => {
         console.log(trees.length)
         listTrees()
     } else {
-        errorElement.innerHTML = 'You need a fourth tree in the list to get the name. <br> Add some more trees!'
+        errorElement.innerHTML = 'You need a fourth tree in the list to get the name. <br> Add some more trees!';
     }
 
 }
