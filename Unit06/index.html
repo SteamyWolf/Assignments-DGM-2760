@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nonsense Story</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -21,18 +22,25 @@
     </ul>
     <div class="nouns">
     <h3>SEVEN NOUNS</h3>
-    <textarea rows="4" cols="50" placeholder="cat, house, car, Garry, Leroy"></textarea>
+    <textarea id="nounTextArea" rows="4" cols="50" placeholder="cat house car Garry Leroy"></textarea>
     </div>
 
     <div class="adjectives">
         <h3>THREE ADJECTIVES</h3>
-        <textarea rows="4" cols="50" placeholder="scary, ugly, beautiful"></textarea>
+        <textarea id="adjectiveTextArea" rows="4" cols="50" placeholder="scary ugly beautiful"></textarea>
     </div>
 
     <div class="verbs">
         <h3>TWO VERBS</h3>
-        <textarea rows="4" cols="50" placeholder="run, jump"></textarea>
+        <textarea id="verbTextArea" rows="4" cols="50" placeholder="run jump"></textarea>
     </div>
+    <button id="storyButton">Tell the Story</button>
+    <p id="storyP"></p>
 </main>
 </body>
+
+<footer>
+    <h3>Wyatt Allan 06</h3>
+</footer>
+<script type="text/javascript" src="main.js"></script>
 </html>
