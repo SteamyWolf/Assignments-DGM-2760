@@ -1,6 +1,7 @@
 html {
     padding: 0;
     margin: 0;
+    font-family: 'Sawarabi Mincho', sans-serif;
 
 }
 
@@ -17,10 +18,26 @@ header {
     padding-top: 10px;
 }
 
+
+header h2 {
+    padding-left: 160px;
+}
+
 main {
     max-width: 980px;
     margin: 0 auto;
 
+}
+
+button {
+    color: brown;
+    background-color: blanchedalmond;
+    border-radius: 2rem;
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 footer {
