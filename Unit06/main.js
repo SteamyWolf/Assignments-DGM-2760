@@ -1,14 +1,19 @@
 
-let nounString = document.querySelector('#nounTextArea').value
-let adjectiveString = document.querySelector('#adjectiveTextArea').value
-let verbString = document.querySelector('#verbTextArea').value
+// let nounString = document.querySelector('#nounTextArea').value
+// let adjectiveString = document.querySelector('#adjectiveTextArea').value
+// let verbString = document.querySelector('#verbTextArea').value
 
 
 function tellStory() {
+    let nounString = document.querySelector('#nounTextArea').value
     nounString.toLowerCase()
     nounArray = nounString.split(/\s+/)
+    
+    let adjectiveString = document.querySelector('#adjectiveTextArea').value
     adjectiveString.toLowerCase()
     adjectiveArray = adjectiveString.split(/\s+/)
+
+    let verbString = document.querySelector('#verbTextArea').value
     verbString.toLowerCase()
     verbArray = verbString.split(/\s+/)
  
