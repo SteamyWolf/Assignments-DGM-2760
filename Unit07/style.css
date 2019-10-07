@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 980px;
+    height: 300px;
+    background-image: url(images/PIZZA!.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -200px;
+    border: red 3px solid;
+    border-radius: 1rem;
+    color: white;
+    padding-left: 20px;
+    
+}
+
+main {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.orderForm {
+    color: red;
+}
+
+#build, #shopping {
+    color: blue;
+    padding: 10px 40px 10px 40px;
+    border-radius: 1rem;
+    background-color: #FFC700; 
+    font-size: .8rem;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+
+footer {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+}
