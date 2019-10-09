@@ -13,7 +13,6 @@ const pizza = {
         let flour = 1
         if (pizza.crust === 'thick') flour *= 2
         else if (pizza.size === 'small') flour /= 2
-        // do the same for large property
         message = `You will need to have ${flour} cups of flour and 1 lb of ${pizza.topping}.`
         document.querySelector('#feedback').textContent = message
     }
