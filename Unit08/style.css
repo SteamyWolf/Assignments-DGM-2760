@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Hepta Slab', serif;
+}
+
+header {
+    background-image: url(images/img_6862.jpg);
+    background-repeat: no-repeat;
+    max-width: 980px;
+    height: 300px;
+    margin: 0 auto;
+    background-size: 980px;
+    background-position-y: -200px;
+    color: whitesmoke;
+    border: solid cadetblue 5px;
+    border-radius: 10px;
+
+}
+
+header h1 {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-weight: 900;
+}
+header h2 {
+    padding-left: 30px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 980px;
+    padding-left: 45px;
+}
+main h1 {
+    color: cadetblue;
+}
+main h2 {
+    color: chocolate;
+}
+
+#stem {
+    padding-bottom: 30px;
+}
+
+.feedback {
+    padding-top: 30px;
+    color: green;
+}
+
+button {
+    font-family: 'Hepta Slab', serif;
+    width: 980px;
+    height: 50px;
+    color: blue;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: lightgray;
+    color: red;
+}
+
+footer {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
