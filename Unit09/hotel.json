@@ -1,0 +1,29 @@
+{
+    "hotels": [
+        {
+            "name": "Marriott",
+            "rooms": "50",
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Double"],
+            "address": "5876 Broadway Avenue",
+            "picture": "room1.jpg"
+        },
+        {
+            "name": "Sheraton",
+            "rooms": "30",
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Double", "Twin"],
+            "address": "1234 Royalty Street",
+            "picture": "room2.jpg"
+        },
+        {
+            "name": "Hilton",
+            "rooms": "90",
+            "gym": "No",
+            "roomTypes": ["Queen", "Double", "Twin", "Fun Size"],
+            "address": "990 Compton Boulevard",
+            "picture": "room3.jpg"
+        }
+
+    ]
+}
