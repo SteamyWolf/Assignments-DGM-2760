@@ -16,10 +16,6 @@ console.log(hotelData)
 let selectAll = document.querySelectorAll('a')
 selectAll.forEach(addEventListener('click', hotelInfo))
 
-// document.querySelector("#marriott").addEventListener('click', hotelInfo)
-// document.querySelector("#sheraton").addEventListener('click', hotelInfo)
-// document.querySelector("#hilton").addEventListener('click', hotelInfo)
-
 
 function hotelInfo(event) {
     let hotelChoice = hotelData.hotels.find(hotel => {
@@ -35,6 +31,6 @@ function hotelInfo(event) {
         ' ' + hotelChoice.roomTypes[1] + ' ' + hotelChoice.roomTypes[2] + ' ' + 
     hotelChoice.roomTypes[3]}`
     let picturePlacement = document.querySelector('#picture')
-    picturePlacement.appendChild = `${hotelChoice.picture}`
+    picturePlacement.src = `${hotelChoice.picture}`
 }
 

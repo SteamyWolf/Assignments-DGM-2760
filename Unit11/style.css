@@ -28,6 +28,15 @@ main {
     padding-top: 30px;
 }
 
+main h2 {
+    color: orangered;
+    padding-bottom: 10px;
+}
+
+main h3 {
+    color: brown;
+}
+
 .hotels {
     display: flex;
     justify-content: space-evenly;
@@ -46,10 +55,10 @@ main {
     margin: 8px;
 }
 
-/* #picture {
-    max-width: 500px;
-    height: 500px;
-} */
+#picture {
+    max-width: 70%;
+    max-height: 30%;
+}
 
 footer {
     max-width: 1100px;
