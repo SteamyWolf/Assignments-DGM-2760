@@ -42,8 +42,18 @@ main h3 {
     justify-content: space-evenly;
     list-style-type: none;
     max-width: 700px;
-    background-color: lightcoral;
+    background-color: #FFEEE9;
     padding: 10px;
+}
+
+.hotels a:link {
+    text-decoration: none;
+    color: 
+}
+
+.hotels a:visited {
+    color: brown;
+    text-decoration: none;
 }
 
 .p p {
