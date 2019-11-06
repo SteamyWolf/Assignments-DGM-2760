@@ -4,7 +4,7 @@
             "name": "Marriott",
             "rooms": "50",
             "gym": "Yes",
-            "roomTypes": ["King", "Queen", "Double"],
+            "roomTypes": ["King", "Queen", "Double", "Twin"],
             "address": "5876 Broadway Avenue",
             "picture": "room1.jpg"
         },

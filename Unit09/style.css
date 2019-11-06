@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Playfair Display', serif;
 }
 
 header {
@@ -28,7 +29,12 @@ main {
 }
 
 .hotels {
-    border: red solid 2px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    max-width: 700px;
+    background-color: lightcoral;
+    padding: 10px;
 }
 
 .p p {
@@ -39,6 +45,11 @@ main {
     background-color: lightblue;
     margin: 8px;
 }
+
+/* #picture {
+    max-width: 500px;
+    height: 500px;
+} */
 
 footer {
     max-width: 1100px;
