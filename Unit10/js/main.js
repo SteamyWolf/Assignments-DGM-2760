@@ -11,12 +11,13 @@ function duplicateMenu() {
         // 'copy' the textContent from upper menu to new menu 
             let textContentUpper = document.querySelector('#primaryNavigation').textContent
             console.log(textContentUpper)
-            let bottomLink = document.querySelector('#smallNavArea')
-            bottomLink.textContent = textContentUpper
+            let bottomNav = document.querySelector('#smallNavArea')
+            bottomNav.textContent = textContentUpper
         // append children to make them appear in the DOM
-            newList.appendChild(newLI)
-            newList.appendChild(newLink)
-            bottomLink.appendChild(newList)
+            menuItem.appendChild(newList)
+            menuItem.appendChild(newLI)
+            menuItem.appendChild(newLink)
+            bottomNav.appendChild(menuItem)
         
     })
 }

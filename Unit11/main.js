@@ -13,8 +13,9 @@ let hotelData = {}
 getHotelData().then(data => hotelData = data)
 console.log(hotelData)
 
-let selectAll = document.querySelectorAll('a')
-selectAll.forEach(addEventListener('click', hotelInfo))
+let selectAll = document.querySelectorAll('a') 
+selectAll.forEach(() => addEventListener('click', hotelInfo))
+console.log(selectAll)
 
 
 function hotelInfo(event) {
