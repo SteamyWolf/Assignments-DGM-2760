@@ -79,7 +79,7 @@ header h2 {
 		padding: .6rem 0;
 		text-align: center;
 		text-decoration: none;
-		color: #FFF;
+		color: rgb(187, 22, 22);
 		background-color: rgba(0,0,0,0.2);
 	}
 
@@ -89,7 +89,7 @@ header h2 {
 	}
 	div.smallMenuLink a {
 		display: block;
-		color: #FFF;
+		color: rgb(172, 39, 39);
 		text-decoration: none;
 		padding: .6rem;
 	}

@@ -8,9 +8,23 @@ function duplicateMenu() {
         let newLI = document.createElement('li')
         let newLink = document.createElement('a')
         newLink.setAttribute('href', menuItem.getAttribute('href'))
-        // 'copy' the textContent from upper menu to new menu
+        // 'copy' the textContent from upper menu to new menu 
+        let bottomLink = document.querySelector('#smallNavArea')
+        topList.textContent = bottomLink
+            console.log(topList.textContent)
         // append children to make them appear in the DOM
+        menuItem.appendChild(newLI)
+        menuItem.appendChild(newLink)
+        menuItem.appendChild(newList)
+       
+        
     })
 }
 
 duplicateMenu()
+
+
+// let bottomLink = document.querySelector('#smallNavArea')
+//         topList.textContent = bottomLink
+//         console.log(topList.textContent)
+//         bottomLink.appendChild(menuItem)
