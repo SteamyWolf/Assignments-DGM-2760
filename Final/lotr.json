@@ -1,0 +1,61 @@
+{
+    "character": [
+        {
+            "name": "Frodo Baggins",
+            "species": "Hobbit",
+            "height": "3ft 6in",
+            "home": "The Shire",
+            "picture": "images/FRODO.jpg"
+        },
+        {
+            "name": "Bilbo Baggins",
+            "species": "Hobbit",
+            "height": "4ft 1in",
+            "home": "The Shire",
+            "picture": "images/Bilbo.jpg"
+        },
+        {
+            "name": "Sauron",
+            "species": "Ainur",
+            "height": "9ft 2in",
+            "home": "Before the Creation of Arda",
+            "picture": "images/Sauron-2.jpg"
+        },
+        {
+            "name": "Gandalf",
+            "species": "Ainur",
+            "height": "unknown",
+            "home": "Before the the Shaping of Arda",
+            "picture": "images/Gandalf_the_Grey.jpg"
+        },
+        {
+            "name": "Aragorn II Elessar",
+            "species": "Men",
+            "height": "6ft 6in",
+            "home": "Thorongil",
+            "picture": "images/Aragorn_profile.jpg"
+        },
+        {
+            "name": "Legolas",
+            "species": "Elf",
+            "height": "6ft 2in",
+            "home": "Mirkwood",
+            "picture": "images/Legolas_-_in_Two_Towers.PNG.png"
+        },
+        {
+            "name": "Boromir",
+            "species": "Men",
+            "height": "6ft 4in",
+            "home": "Gondor",
+            "picture": "images/Bormir.jpg"
+        },
+        {
+            "name": "Gimli",
+            "species": "Dwarf",
+            "height": "4ft",
+            "home": "Thorin's Halls",
+            "picture": "images/Gimli_-_FOTR.png"
+        },
+
+    ]
+}
